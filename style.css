@@ -1,0 +1,24 @@
+*{
+
+}
+
+.logo-mario{
+    height: 200px;
+    max-width: 100%;
+}
+
+button{
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin: 8px 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
