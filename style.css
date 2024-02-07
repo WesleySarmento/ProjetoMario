@@ -22,3 +22,12 @@ button{
     display: inline-block;
     vertical-align: middle;
 }
+
+.imagem-mario-luigi{
+    height: 500px;
+}
+
+body{
+    display: flex;
+}
+
