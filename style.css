@@ -1,5 +1,7 @@
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .logo-mario{
@@ -21,6 +23,7 @@ button{
     margin: 8px 4px;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 30px;
 }
 
 .imagem-mario-luigi{
@@ -28,6 +31,44 @@ button{
 }
 
 body{
-    display: flex;
+    height: 100vh;
 }
 
+.caixa-mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+.caixa-principal{
+    width: 40%;
+}
+
+.caixa-video{
+    position: fixed;
+    top: 0;
+    z-index:  -1;
+
+}
+
+video{
+    width: 100vw;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+/*
+
+img{
+    mask-image: url (linkedin.png);
+    mask-repeat: no-repeat;
+
+*/
